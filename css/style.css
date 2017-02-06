@@ -1,70 +1,76 @@
-/*html
-{
-    margin: -1px;
-    border: -1px;
-    padding: -1px;
-}
-*/
-body
-{
-    /*background: url('http://bossfight.co/wp-content/uploads/2015/11/boss-fight-free-high-quality-stock-images-photos-photography-power-lines-960x540.jpg');
-*/
-    background-image: url("../img/sowa2.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    font-family: 'Questrial', sans-serif;
-    font-size: 1.2em;/*1.2em;*/
+@font-face {
+    font-family: Questrial;
+    src: local(bttf_font), url('../font/Questrial-Regular.ttf') format('opentype');
 }
 
-::-webkit-scrollbar
-{
+body {
+    background-size: 100%;
+    background: url("../img/sowa.jpg") no-repeat;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.2em; /*1.2em;*/
+}
+
+::-webkit-scrollbar {
     display: none;
 }
 
-ul
-{
+ul {
     display: inline-flex;
     list-style: none;
 }
 
-.container
-{
+.container {
     padding: 0;
 }
 
-ul.submenu
-{
+ul.submenu {
     display: block;
     width: 100%;
     margin: 0;
     padding: 0;
-    background: rgba(30, 30, 30, 0.6); /*rgba(220,219,219,.1);*/
+    background: rgba(30, 30, 30, 0.6);
 }
 
-a
-{
+a {
     display: block;
     padding: 10px;
-    color: #ffffff;  /* #EEE; */
+    color: #ffffff;
     text-decoration: none;
     transition: all .3s ease;
     opacity: .5;
 }
 
-a:hover
-{
+a:hover {
     color: #fff;
     transition: all .3s ease;
 }
 
-a.parent {transition: all .3s ease;color: #555;background: #EEE;text-align: center;}
-a.tab {transition: all .3s ease;opacity: 0.5;}
-a.tab:hover {transition: all .3s ease;text-indent: 5px;opacity: 1; }
-ul > li:hover > a.parent {transition: all .3s ease;opacity: .8;}
+a.parent {
+    transition: all .3s ease;
+    color: #555;
+    background: #EEE;
+    text-align: center;
+}
+
+a.tab {
+    transition: all .3s ease;
+    opacity: 0.5;
+}
+
+a.tab:hover {
+    transition: all .3s ease;
+    text-indent: 5px;
+    opacity: 1;
+}
+
+ul > li:hover > a.parent {
+    transition: all .3s ease;
+    opacity: .8;
+}
 
 .menu {
     display: block;
-    width: 170px; /* 170px*/
+    width: 170px; /*170px*/
 }
 
 *:focus {
@@ -78,17 +84,13 @@ ul > li:hover > a.parent {transition: all .3s ease;opacity: .8;}
     width: auto;
 }
 
-#wrapper
-{
-    margin-top: ;
+#wrapper {
     width:95%;
-    margin:auto;
-    margin-top:4%;
+    margin: 4% auto auto;
     text-align:center;
 }
 
-#sbox
-{
+#sbox {
     float: left;
     width: 10%;
     margin-left:1%;
@@ -97,40 +99,36 @@ ul > li:hover > a.parent {transition: all .3s ease;opacity: .8;}
     transition: 0.2s ease;
 }
 
-#search
-{
+#search {
     width:80%;
     margin-top: 5px;
 }
 
-tr, td
-{
+tr, td {
     height: 100%;
     padding: 0 0 0 0;
 }
 
-#Search td:nth-child(1)
-{
+#Search td:nth-child(1) {
     float: left;
     margin-top: -2px;
     width: 35%;
     text-align:center;
     opacity: 0.8;
 }
-#Search td:nth-child(2)
-{
+
+#Search td:nth-child(2) {
     float: right;
     width:50%;
 }
 
-input[type="text"]
-{
+input[type="text"] {
     padding: 0 0 20px 8px;
     width: 80%;
     border:none;
     cursor: default;
-    font-family: 'Questrial'; /*'Open Sans';*/
-    font-weight:250;
+    font-family: 'Questrial', sans-serif;
+    font-weight: 300;
     opacity: 0.3;
     transition: 0.0s ease;
     text-align: center;
@@ -139,15 +137,12 @@ input[type="text"]
     font-size:5.0vw;
 }
 
-input[type="text"]:focus
-{
+input[type="text"]:focus {
     width: 80%;
-    opacity:1.0;
-    box-shadow: 1 1 1 1;
+    opacity: 1.0;
     background: transparent;
     font-size: 5.0vw;
 }
-textarea, input
-{
+textarea, input {
     outline: none;
 }
