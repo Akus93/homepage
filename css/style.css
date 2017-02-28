@@ -7,7 +7,7 @@ body {
     background: url("../img/jelen.jpg") no-repeat;
     background-size: 100%;
     font-family: 'Questrial', sans-serif;
-    font-size: 1em; /*1.2em;*/
+    font-size: 1.2em; /*1.2em;*/
 }
 
 ::-webkit-scrollbar {
@@ -70,7 +70,7 @@ ul > li:hover > a.parent {
 
 .menu {
     display: block;
-    width: 140px; /*170px*/
+    width: 170px; /*170px*/
 }
 
 *:focus {
