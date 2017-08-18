@@ -10,7 +10,7 @@ body {
     font-size: 1.2em;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1400px) {
     body {
         font-size: 1em;
     }
@@ -118,7 +118,7 @@ a.tab:hover {
     width: 75%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1400px) {
     #nav {
         width: 90%;
     }
@@ -138,5 +138,3 @@ a.tab:hover {
     opacity: 0.9;
     transition: 0.2s ease;
 }
-
-
