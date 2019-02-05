@@ -1,8 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
 @font-face {
     font-family: Questrial;
-    src: local(bttf_font), url('assets/font/Questrial-Regular.ttf') format('opentype');
     font-display: fallback;
+    src: local(bttf_font), url('assets/font/Questrial-Regular.ttf') format('opentype');
+}
+
+* {
+    margin: 0;
 }
 
 body {
@@ -10,11 +13,13 @@ body {
     background-size: cover;
     font-family: 'Questrial', sans-serif;
     font-size: 1.2em;
+    height: 100vh;
 }
 
 @media screen and (max-width: 1400px) {
     body {
         font-size: 1em;
+        height: 100vh;
     }
 }
 

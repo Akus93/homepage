@@ -1,92 +1,19 @@
 <div id="wrapper">
     <div class="sbox">
         <form action="https://google.com/search?q=">
-            <input class="animated zoomIn" autocomplete="off" name="q" autofocus/>
+            <input class="animated zoomIn" autocomplete="off" name="q" autofocus />
         </form>
     </div>
     <div id="nav">
         <ul class="container">
-
-            <li class="menu"><a class="parent" href="#">News</a>
+            <li *ngFor="let section of sections" class="menu">
+                <a class="parent">{{ section.title }}</a>
                 <ul class="submenu">
-                    <li><a class="tab" href="http://www.wp.pl/">Wp</a></li>
-                    <li><a class="tab" href="http://www.onet.pl">Onet</a></li>
-                    <li><a class="tab" href="http://www.interia.pl">Interia</a></li>
-                    <li><a class="tab" href="http://liveleak.com">LiveLeak</a></li>
-                </ul>
-            </li>
-
-            <li class="menu"><a class="parent" href="#">Fun</a>
-                <ul class="submenu">
-                    <li><a class="tab" href="http://www.9gag.com">9gag</a></li>
-                    <li><a class="tab" href="http://www.4chan.org">4Chan</a></li>
-                    <li><a class="tab" href="http://www.kwejk.pl">Kwejk</a></li>
-                </ul>
-            </li>
-
-            <li class="menu"><a class="parent" href="#">Social</a>
-                <ul class="submenu">
-                    <li><a class="tab" href="https://www.facebook.com">Facebook</a></li>
-                    <li><a class="tab" href="https://www.youtube.com">YouTube</a></li>
-                    <li><a class="tab" href="https://www.linkedin.com">LiknedIn</a></li>
-                    <li><a class="tab" href="https://www.plus.google.com">Google+</a></li>
-                    <li><a class="tab" href="https://www.vimeo.com">Vimeo</a></li>
-                </ul>
-            </li>
-
-            <li class="menu"><a class="parent" href="#">Mail</a>
-                <ul class="submenu">
-                    <li><a class="tab" href="https://protonmail.com">ProtonMail</a></li>
-                    <li><a class="tab" href="https://mailbox2.student.put.poznan.pl/zimbra/mail">ePoczta</a></li>
-                    <li><a class="tab" href="https://poczta.lh.pl/">Praca</a></li>
-                    <li><a class="tab" href="https://www.gmail.com">Gmail</a></li>
-                </ul>
-            </li>
-
-            <li class="menu"><a class="parent" href="#">Tech</a>
-                <ul class="submenu">
-                    <li><a class="tab" href="http://niebezpiecznik.pl/">Niebezpiecznik</a></li>
-                    <li><a class="tab" href="https://news.ycombinator.com/">Hacker News</a></li>
-                    <li><a class="tab" href="http://gadzetomania.pl/">Gadzetomania</a></li>
-                    <li><a class="tab" href="http://www.spidersweb.pl/">Spider's Web</a></li>
-                    <li><a class="tab" href="http://antyweb.pl/">Antyweb</a></li>
-                </ul>
-            </li>
-
-            <li class="menu"><a class="parent" href="#">Dev</a>
-                <ul class="submenu">
-                    <li><a class="tab" href="https://www.github.com">Github</a></li>
-                    <li><a class="tab" href="https://gitlab.com/users/sign_in">GitLab</a></li>
-                    <li><a class="tab" href="https://bitbucket.org/">Bitbucket</a></li>
-                    <li><a class="tab" href="https://www.codecademy.com">Cademy</a></li>
-                </ul>
-            </li>
-
-            <li class="menu"><a class="parent" href="#">Work</a>
-                <ul class="submenu">
-                    <li><a class="tab" href="https://sentry.mrx.gd/sentry/">Sentry</a></li>
-                    <li><a class="tab" href="http://ci.next.mrx.gd/">Jenkins</a></li>
-                    <li><a class="tab" href="http://emplo.merixstudio.com/login">Emplo</a></li>
-                    <li><a class="tab" href="https://merixstudio.atlassian.net/">Jira</a></li>
-                </ul>
-            </li>
-
-            <li class="menu"><a class="parent" href="#">Utility</a>
-                <ul class="submenu">
-                    <li><a class="tab" href="http://poznan.jakdojade.pl/">Jakdojade</a></li>
-                    <li><a class="tab" href="http://new.meteo.pl/um/php/meteorogram_id_um.php?ntype=0u&id=406">Ostrowiec</a></li>
-                    <li><a class="tab" href="http://www.meteo.pl/um/php/meteorogram_id_um.php?ntype=0n&id=2406">Poznań</a></li>
-                </ul>
-            </li>
-
-            <li class="menu"><a class="parent" href="#">Misc</a>
-                <ul class="submenu">
-                    <li><a class="tab" href="http://www.torg.pl">Torg</a></li>
-                    <li><a class="tab" href="http://pokolenieikea.com/">Ikea</a></li>
-                    <li><a class="tab" href="https://www.clickerheroes.com/">Clicker</a></li>
+                    <li *ngFor="let link of section.links">
+                        <a class="tab" href="{{ link.href }}">{{ link.name }}</a>
+                    </li>
                 </ul>
             </li>
         </ul>
     </div>
 </div>
-

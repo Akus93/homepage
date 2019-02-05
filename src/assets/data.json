@@ -1,0 +1,187 @@
+[
+    {
+       "title": "News",
+       "links": [
+            {
+                "name": "Wp",
+                "href": "https://www.wp.pl/"
+            },
+            {
+                "name": "Onet",
+                "href": "https://www.onet.pl/"
+            },
+            {
+                "name": "Interia",
+                "href": "https://www.interia.pl/"
+            },
+            {
+                "name": "LiveLeak",
+                "href": "https://www.liveleak.com/"
+            }
+       ]
+    },
+    {
+        "title": "Fun",
+        "links": [
+            {
+                "name": "9gag",
+                "href": "https://9gag.com/"
+            },
+            {
+                "name": "4chan",
+                "href": "http://www.4chan.org/"
+            },
+            {
+                "name": "Kwejk",
+                "href": "https://kwejk.pl/"
+            }
+        ]
+    },
+    {
+        "title": "Social",
+        "links": [
+            {
+                "name": "Facebook",
+                "href": "https://www.facebook.com/"
+            },
+            {
+                "name": "YouTube",
+                "href": "https://www.youtube.com/"
+            },
+            {
+                "name": "LinkedIn",
+                "href": "https://www.linkedin.com/"
+            },
+            {
+                "name": "Google+",
+                "href": "https://plus.google.com"
+            },
+            {
+                "name": "Vimeo",
+                "href": "https://vimeo.com/"
+            }
+        ]
+    },
+    {
+        "title": "Mail",
+        "links": [
+            {
+                "name": "ProtonMail",
+                "href": "https://protonmail.com/"
+            },
+            {
+                "name": "ePoczta",
+                "href": "https://mailbox2.student.put.poznan.pl/zimbra/mail"
+            },
+            {
+                "name": "Praca",
+                "href": "https://poczta.lh.pl/"
+            },
+            {
+                "name": "Gmail",
+                "href": "https://mail.google.com/"
+            }
+        ]
+    },
+    {
+        "title": "Tech",
+        "links": [
+            {
+                "name": "Niebezpiecznik",
+                "href": "https://niebezpiecznik.pl/"
+            },
+            {
+                "name": "Hacker News",
+                "href": "https://news.ycombinator.com/"
+            },
+            {
+                "name": "Gadzetomania",
+                "href": "https://gadzetomania.pl/"
+            },
+            {
+                "name": "Spider's Web",
+                "href": "https://www.spidersweb.pl/"
+            },
+            {
+                "name": "Antyweb",
+                "href": "https://antyweb.pl/"
+            }
+        ]
+    },
+    {
+        "title": "Dev",
+        "links": [
+            {
+                "name": "Github",
+                "href": "https://github.com/"
+            },
+            {
+                "name": "GitLab",
+                "href": "https://gitlab.com/"
+            },
+            {
+                "name": "Bitbucket",
+                "href": "https://bitbucket.org/"
+            },
+            {
+                "name": "Cademy",
+                "href": "https://www.codecademy.com/"
+            }
+        ]
+    },
+    {
+        "title": "Work",
+        "links": [
+            {
+                "name": "Sentry",
+                "href": "https://sentry.mrx.gd/"
+            },
+            {
+                "name": "Jenkins",
+                "href": "http://ci.next.mrx.gd/"
+            },
+            {
+                "name": "Emplo",
+                "href": "http://emplo.merixstudio.com/"
+            },
+            {
+                "name": "Jira",
+                "href": "https://merixstudio.atlassian.net/"
+            }
+        ]
+    },
+    {
+        "title": "Utility",
+        "links": [
+            {
+                "name": "Jakdojade",
+                "href": "https://jakdojade.pl/poznan/trasa/"
+            },
+            {
+                "name": "Ostrowiec",
+                "href": "http://new.meteo.pl/um/php/meteorogram_id_um.php?ntype=0u&id=406"
+            },
+            {
+                "name": "Poznań",
+                "href": "http://www.meteo.pl/um/php/meteorogram_id_um.php?ntype=0n&id=2406"
+            }
+        ]
+    },
+    {
+        "title": "Misc",
+        "links": [
+            {
+                "name": "Torg",
+                "href": "https://www.torg.pl/"
+            },
+            {
+                "name": "Ikea",
+                "href": "https://pokolenieikea.com/"
+            },
+            {
+                "name": "Clicker",
+                "href": "https://www.clickerheroes.com/"
+            }
+        ]
+    }
+]
