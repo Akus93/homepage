@@ -2,6 +2,7 @@
 @font-face {
     font-family: Questrial;
     src: local(bttf_font), url('assets/font/Questrial-Regular.ttf') format('opentype');
+    font-display: fallback;
 }
 
 body {
