@@ -10,6 +10,7 @@ html {
 body {
     background-size: cover;
     background: url("../img/jelen.jpg") no-repeat center center fixed;
+    background-size: cover;
     font-family: 'Questrial', sans-serif;
     margin: 0;
 }
