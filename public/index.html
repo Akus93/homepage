@@ -1,113 +1,101 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Questrial&display=swap">
-  <link rel='icon' href='favicon.ico' type='image/x-icon' />
-  <title>New Tab</title>
-</head>
-
-<body>
-  <div class="homepage">
-    <div class="search-box">
-      <form action="https://google.com/search?q=">
-        <input class="search" autocomplete="off" name="q" autofocus />
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link rel='icon' href='favicon.ico' type='image/x-icon' />
+    <title>New Tab</title>
+  </head>
+  <body>
+    <div class="homepage">
+      <form class="search" action="https://google.com/search?q=">
+        <input autocomplete="off" name="q" autofocus />
       </form>
+      <nav>
+        <ul class="categories">
+
+          <li class="category"><span class="category__label">News</span>
+            <ul class="category__links">
+              <li><a class="category__link" href="https://www.wp.pl/" rel="noreferrer">Wp</a></li>
+              <li><a class="category__link" href="https://www.onet.pl" rel="noreferrer">Onet</a></li>
+              <li><a class="category__link" href="https://www.interia.pl" rel="noreferrer">Interia</a></li>
+              <li><a class="category__link" href="https://www.wykop.pl/" rel="noreferrer">Wykop</a></li>
+            </ul>
+          </li>
+
+          <li class="category"><span class="category__label">Fun</span>
+            <ul class="category__links">
+              <li><a class="category__link" href="https://www.reddit.com/" rel="noreferrer">Reddit</a></li>
+              <li><a class="category__link" href="https://www.9gag.com" rel="noreferrer">9gag</a></li>
+              <li><a class="category__link" href="https://www.4chan.org" rel="noreferrer">4chan</a></li>
+              <li><a class="category__link" href="https://www.kwejk.pl" rel="noreferrer">Kwejk</a></li>
+            </ul>
+          </li>
+
+          <li class="category"><span class="category__label">Social</span>
+            <ul class="category__links">
+              <li><a class="category__link" href="https://www.facebook.com" rel="noreferrer">Facebook</a></li>
+              <li><a class="category__link" href="https://www.youtube.com" rel="noreferrer">YouTube</a></li>
+              <li><a class="category__link" href="https://www.linkedin.com" rel="noreferrer">LinkedIn</a></li>
+              <li><a class="category__link" href="https://www.vimeo.com" rel="noreferrer">Vimeo</a></li>
+            </ul>
+          </li>
+
+          <li class="category"><span class="category__label">Mail</span>
+            <ul class="category__links">
+              <li><a class="category__link" href="https://protonmail.com" rel="noreferrer">ProtonMail</a></li>
+              <li><a class="category__link" href="https://www.gmail.com" rel="noreferrer">Gmail</a></li>
+            </ul>
+          </li>
+
+          <li class="category"><span class="category__label">Tech</span>
+            <ul class="category__links">
+              <li><a class="category__link" href="https://niebezpiecznik.pl/" rel="noreferrer">Niebezpiecznik</a></li>
+              <li><a class="category__link" href="https://news.ycombinator.com/" rel="noreferrer">Hacker News</a></li>
+              <li><a class="category__link" href="https://www.spidersweb.pl/" rel="noreferrer">Spider's Web</a></li>
+              <li><a class="category__link" href="https://antyweb.pl/" rel="noreferrer">Antyweb</a></li>
+              <li><a class="category__link" href="https://www.phoronix.com" rel="noreferrer">Phoronix</a></li>
+              
+            </ul>
+          </li>
+
+          <li class="category"><span class="category__label">Dev</span>
+            <ul class="category__links">
+              <li><a class="category__link" href="https://www.github.com" rel="noreferrer">Github</a></li>
+              <li><a class="category__link" href="https://gitlab.com/users/sign_in" rel="noreferrer">GitLab</a></li>
+            </ul>
+          </li>
+
+          <li class="category"><span class="category__label">Work</span>
+            <ul class="category__links">
+              <li><a class="category__link" href="https://merixstudio.atlassian.net/wiki/home" rel="noreferrer">Confluence</a></li>
+              <li><a class="category__link" href="https://sentry.mrx.gd/sentry/" rel="noreferrer">Sentry</a></li>
+              <li><a class="category__link" href="https://emplo.merixstudio.com/login" rel="noreferrer">Emplo</a></li>
+              <li><a class="category__link" href="https://merixstudio.atlassian.net/" rel="noreferrer">Jira</a></li>
+            </ul>
+          </li>
+
+          <li class="category"><span class="category__label">Utility</span>
+            <ul class="category__links">
+              <li><a class="category__link" href="https://poznan.jakdojade.pl/" rel="noreferrer">Jakdojade</a></li>
+              <li><a class="category__link" href="http://new.meteo.pl/um/php/meteorogram_id_um.php?ntype=0u&id=406" rel="noreferrer">Ostrowiec</a></li>
+              <li><a class="category__link" href="http://www.meteo.pl/um/php/meteorogram_id_um.php?ntype=0n&id=2406" rel="noreferrer">Poznań</a></li>
+            </ul>
+          </li>
+
+          <li class="category"><span class="category__label">Misc</span>
+            <ul class="category__links">
+              <li><a class="category__link" href="https://www.torg.pl" rel="noreferrer">Torg</a></li>
+              <li><a class="category__link" href="https://liveleak.com" rel="noreferrer">LiveLeak</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </nav>
     </div>
-    <nav>
-      <ul class="categories-box">
-
-        <li class="category"><span class="category__label">News</span>
-          <ul class="category__links">
-            <li><a class="category__link" href="http://www.wp.pl/" rel="noreferrer">Wp</a></li>
-            <li><a class="category__link" href="http://www.onet.pl" rel="noreferrer">Onet</a></li>
-            <li><a class="category__link" href="http://www.interia.pl" rel="noreferrer">Interia</a></li>
-            <li><a class="category__link" href="http://liveleak.com" rel="noreferrer">LiveLeak</a></li>
-          </ul>
-        </li>
-
-        <li class="category"><span class="category__label">Fun</span>
-          <ul class="category__links">
-            <li><a class="category__link" href="http://www.9gag.com" rel="noreferrer">9gag</a></li>
-            <li><a class="category__link" href="http://www.4chan.org" rel="noreferrer">4chan</a></li>
-            <li><a class="category__link" href="http://www.kwejk.pl" rel="noreferrer">Kwejk</a></li>
-          </ul>
-        </li>
-
-        <li class="category"><span class="category__label">Social</span>
-          <ul class="category__links">
-            <li><a class="category__link" href="https://www.facebook.com" rel="noreferrer">Facebook</a></li>
-            <li><a class="category__link" href="https://www.youtube.com" rel="noreferrer">YouTube</a></li>
-            <li><a class="category__link" href="https://www.linkedin.com" rel="noreferrer">LinkedIn</a></li>
-            <li><a class="category__link" href="https://www.plus.google.com" rel="noreferrer">Google+</a></li>
-            <li><a class="category__link" href="https://www.vimeo.com" rel="noreferrer">Vimeo</a></li>
-          </ul>
-        </li>
-
-        <li class="category"><span class="category__label">Mail</span>
-          <ul class="category__links">
-            <li><a class="category__link" href="https://protonmail.com" rel="noreferrer">ProtonMail</a></li>
-            <li><a class="category__link" href="https://mailbox2.student.put.poznan.pl/zimbra/mail" rel="noreferrer">ePoczta</a></li>
-            <li><a class="category__link" href="https://poczta.lh.pl/" rel="noreferrer">Praca</a></li>
-            <li><a class="category__link" href="https://www.gmail.com" rel="noreferrer">Gmail</a></li>
-          </ul>
-        </li>
-
-        <li class="category"><span class="category__label">Tech</span>
-          <ul class="category__links">
-            <li><a class="category__link" href="http://niebezpiecznik.pl/" rel="noreferrer">Niebezpiecznik</a>
-            </li>
-            <li><a class="category__link" href="https://news.ycombinator.com/" rel="noreferrer">Hacker News</a>
-            </li>
-            <li><a class="category__link" href="http://gadzetomania.pl/" rel="noreferrer">Gadzetomania</a></li>
-            <li><a class="category__link" href="http://www.spidersweb.pl/" rel="noreferrer">Spider's Web</a></li>
-            <li><a class="category__link" href="http://antyweb.pl/" rel="noreferrer">Antyweb</a></li>
-          </ul>
-        </li>
-
-        <li class="category"><span class="category__label">Dev</span>
-          <ul class="category__links">
-            <li><a class="category__link" href="https://www.github.com" rel="noreferrer">Github</a></li>
-            <li><a class="category__link" href="https://gitlab.com/users/sign_in" rel="noreferrer">GitLab</a></li>
-            <li><a class="category__link" href="https://bitbucket.org/" rel="noreferrer">Bitbucket</a></li>
-            <li><a class="category__link" href="https://www.codecademy.com" rel="noreferrer">Cademy</a></li>
-          </ul>
-        </li>
-
-        <li class="category"><span class="category__label">Work</span>
-          <ul class="category__links">
-            <li><a class="category__link" href="https://sentry.mrx.gd/sentry/" rel="noreferrer">Sentry</a></li>
-            <li><a class="category__link" href="http://ci.next.mrx.gd/" rel="noreferrer">Jenkins</a></li>
-            <li><a class="category__link" href="http://emplo.merixstudio.com/login" rel="noreferrer">Emplo</a>
-            </li>
-            <li><a class="category__link" href="https://merixstudio.atlassian.net/" rel="noreferrer">Jira</a></li>
-          </ul>
-        </li>
-
-        <li class="category"><span class="category__label">Utility</span>
-          <ul class="category__links">
-            <li><a class="category__link" href="http://poznan.jakdojade.pl/" rel="noreferrer">Jakdojade</a></li>
-            <li><a class="category__link"
-                href="http://new.meteo.pl/um/php/meteorogram_id_um.php?ntype=0u&id=406" rel="noreferrer">Ostrowiec</a>
-            </li>
-            <li><a class="category__link"
-                href="http://www.meteo.pl/um/php/meteorogram_id_um.php?ntype=0n&id=2406" rel="noreferrer">Poznań</a></li>
-          </ul>
-        </li>
-
-        <li class="category"><span class="category__label">Misc</span>
-          <ul class="category__links">
-            <li><a class="category__link" href="http://www.torg.pl" rel="noreferrer">Torg</a></li>
-            <li><a class="category__link" href="http://pokolenieikea.com/" rel="noreferrer">Ikea</a></li>
-            <li><a class="category__link" href="https://www.clickerheroes.com/" rel="noreferrer">Clicker</a></li>
-          </ul>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</body>
-
+  </body>
 </html>
