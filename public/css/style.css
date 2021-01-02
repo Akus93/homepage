@@ -41,6 +41,16 @@ body {
   cursor: default;
 }
 
+@media (max-width: 600px) {
+  .search {
+    margin-top: 12px;
+  }
+
+  .search input {
+    font-size: 3em;
+  }
+}
+
 .search input:focus {
   opacity: 1;
   background: transparent;
@@ -62,6 +72,12 @@ nav {
 @media (max-width: 1250px) {
   nav {
     font-size: 1em;
+  }
+}
+
+@media (max-width: 600px) {
+  nav {
+    padding: 0;
   }
 }
 
