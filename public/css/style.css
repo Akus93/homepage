@@ -5,16 +5,24 @@
 
 html {
   font-size: 16px;
-  font-family: 'Questrial', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 body {
   margin: 0;
-  background-color: #10100e;
-  background-image: url("../img/deer.jpg");
-  background-size: contain no-repeat;
-  background-position: center;
-  background-repeat: no-repeat;
+  letter-spacing: 0.3px;
+  background-image: linear-gradient(
+    135deg,
+    hsl(239deg 81% 26%) 0%,
+    hsl(240deg 80% 29%) 13%,
+    hsl(239deg 81% 32%) 25%,
+    hsl(239deg 80% 35%) 37%,
+    hsl(239deg 79% 38%) 50%,
+    hsl(239deg 79% 42%) 63%,
+    hsl(239deg 80% 45%) 75%,
+    hsl(239deg 80% 48%) 87%,
+    hsl(239deg 80% 52%) 100%
+  );
 }
 
 .homepage {
@@ -29,13 +37,13 @@ body {
 }
 
 .search input {
-  opacity: 0.65;
+  opacity: 0.7;
   width: 100%;
   border: none;
   background: transparent;
   color: #eee;
   font-size: 5em;
-  font-family: 'Questrial', sans-serif;
+  font-family: inherit;
   text-align: center;
   transition: 0.25s ease;
   cursor: default;
@@ -98,20 +106,13 @@ nav {
 }
 
 .category__label {
-  opacity: 0.65;
   display: block;
   padding: 10px;
-  background: #fff;
-  color: #444;
+  background: #eee;
+  color: #111;
   text-align: center;
   text-decoration: none;
-  transition: all 0.6s ease;
   cursor: default;
-}
-
-.category__label:hover {
-  opacity: 0.85;
-  transition: all 0.3s ease;
 }
 
 .category__links {
@@ -119,13 +120,12 @@ nav {
   width: 100%;
   margin: 0;
   padding: 10px;
-  background: rgba(25, 25, 25, 0.8);
   list-style-type: none;
   text-decoration: none;
 }
 
 .category__link {
-  opacity: 0.5;
+  opacity: 0.8;
   display: block;
   padding: 10px;
   color: #fff;
